@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+#tools {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+           
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 10px;       /* Optional: Rounded corners for the tools container */
+}
+
+#inputBox {
+    width: 90%;
+    height: 50px;
+    padding: 10px;             /* Padding inside the input box */
+    box-sizing: border-box;
+    border: 2px solid #ccc;   /* Light gray border */
+    border-radius: 5px;       /* Rounded corners for the input box */
+    font-size: 16px;           /* Adjust font size */
+    background-color: #fff;   /* White background */
+}
+
+#sendMsg {
+    width: 8%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #007bff; /* Blue background for the send button */
+    color: white;              /* White text color */
+    font-size: 16px;           /* Font size for button text */
+    border: none;              /* No border for the button */
+    border-radius: 5px;       /* Rounded corners for the button */
+    cursor: pointer;          /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#sendMsg:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#sendMsg:active {
+    background-color: #004085; /* Even darker blue when clicked */
+}
+
+

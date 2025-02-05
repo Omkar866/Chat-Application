@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Styling for the already added message container */
+#AlreadyAdded {
+    background-color: #fff3cd;
+    border-left: 8px solid #ffeeba;
+    padding: 25px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#AlreadyAdded h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #856404;
+    margin-bottom: 20px;
+}
+
+#AlreadyAdded a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#AlreadyAdded a:hover {
+    background-color: #0056b3;
+}
+
+/* Animating the warning message box */
+#AlreadyAdded.show {
+    transform: scale(1.05);
+}
